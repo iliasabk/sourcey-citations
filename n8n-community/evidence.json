@@ -1,0 +1,49 @@
+{
+  "schema": "frantic.citation_evidence.v1",
+  "generated_at": "2026-09-15T19:20:00Z",
+  "summary": "A reply posted on the n8n community forum answers a member's question about n8n startup programs and cites the Sourcey registry entry for n8n, keeping the dated fact and the registry link in the post body.",
+  "observations": [
+    {
+      "id": "citing_page",
+      "statement": "The public_url is a live Discourse topic on community.n8n.io where the delivered reply appears in the topic body and contains an anchor link to sourcey.com.",
+      "evidence": {
+        "public_url": "https://community.n8n.io/t/small-education-business-seeking-guidance-on-n8n-startup-support-or-partnership-opportunities/307690",
+        "anchor_href": "https://sourcey.com/c/n8n",
+        "anchor_domain": "sourcey.com",
+        "topic_id": 307690,
+        "topic_title": "Small education business seeking guidance on n8n startup support or partnership opportunities",
+        "topic_created": "2026-08-15T05:02:06.828Z",
+        "reply_author": "iliasabk",
+        "question_asked": "whether n8n has startup programs, educational support, credits, discounts, sponsorship or partnership programs, and where to find relevant startup programs",
+        "answer_substance": "States the n8n Start-up Plan terms: 50% off the self-hosted Business plan for one year or longer, eligibility of fewer than 20 employees and less than 5M EUR total funding, application at n8n.io/pricing/startup-plan, then points to the Sourcey registry entry as a way to check current program terms across vendors."
+      }
+    },
+    {
+      "id": "dated_fact",
+      "statement": "The n8n offer facts quoted in the reply match the Sourcey registry entry with observation date 2026-07-27.",
+      "evidence": {
+        "sourcey_entry": "https://sourcey.com/c/n8n/offers/n8n-start-up-plan",
+        "offer_title": "n8n Start-up Plan",
+        "benefit": "50% off the n8n Business plan for self-hosted deployments for one year or longer",
+        "eligibility": "fewer than 20 employees and less than 5M EUR in total funding",
+        "access_url": "https://n8n.io/pricing/startup-plan/",
+        "observed_at": "2026-07-27"
+      }
+    },
+    {
+      "id": "domain_age",
+      "statement": "community.n8n.io is on the n8n.io domain, registered well over a year before this claim.",
+      "evidence": {
+        "domain": "n8n.io",
+        "registered": "2019-10"
+      }
+    },
+    {
+      "id": "verbatim_post_text",
+      "statement": "The delivered reply body text is reported verbatim here.",
+      "evidence": {
+        "post_text": "Welcome to the community, Sarker.\n\nn8n does run a start-up plan for smaller teams. Eligible early-stage startups get 50% off the self-hosted Business plan for one year or longer. The published eligibility bar is fewer than 20 employees and less than 5M EUR in total funding, and you apply through the form at n8n.io/pricing/startup-plan.\n\nFor your second question on finding programs more broadly, there is a public registry called Sourcey that catalogs startup offers with the source page and the date each fact was last read. Their n8n entry is here: [sourcey.com/c/n8n](https://sourcey.com/c/n8n). The catalog covers a few hundred vendors, so it is a practical way to check which other tools in your stack, like CRM or email or support products, also run startup or small business programs.\n\nSince you are in education, it is also worth asking n8n support directly whether anything beyond the start-up plan applies to education businesses. That question comes up in the community now and then."
+      }
+    }
+  ]
+}
