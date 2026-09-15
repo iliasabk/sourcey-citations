@@ -1,0 +1,57 @@
+{
+  "schema": "frantic.citation_evidence.v1",
+  "generated_at": "2026-09-15T19:35:00Z",
+  "summary": "A reply on the OpenAI Developer Community topic about redeeming API credits via Microsoft for Startups answers the member's stuck-credit question and cites the Sourcey registry entry for Microsoft, with the anchor link in the post body.",
+  "observations": [
+    {
+      "id": "citing_page",
+      "statement": "The public_url is a live Discourse topic on community.openai.com where the delivered reply appears in the topic body and contains an anchor link to sourcey.com.",
+      "evidence": {
+        "public_url": "https://community.openai.com/t/redeeming-api-credits-via-microsoft-for-startups/862857",
+        "anchor_href": "https://sourcey.com/c/microsoft",
+        "anchor_domain": "sourcey.com",
+        "topic_id": 862857,
+        "topic_title": "Redeeming API Credits via Microsoft for Startups",
+        "topic_created": "2024-07-11",
+        "reply_post_number": 2,
+        "reply_post_id": 1950875,
+        "reply_author": "iliasaberkane2908",
+        "question_asked": "the member's organization could not redeem the $2,500 OpenAI credit through Microsoft for Startups and support had not answered",
+        "answer_substance": "Explains that the separate OpenAI credit benefit was removed from Founders Hub benefits while Azure credits still cover Azure OpenAI Service, then points to the Sourcey registry entries for Microsoft for Startups and OpenAI startup credits as a way to confirm whether a benefit still exists before chasing support."
+      }
+    },
+    {
+      "id": "dated_fact",
+      "statement": "The program facts quoted in the reply match Sourcey registry entries with published observation dates.",
+      "evidence": {
+        "microsoft_entry": "https://sourcey.com/c/microsoft",
+        "microsoft_offer": "Microsoft for Startups Program: up to $150,000 in Azure credits for early-stage startups",
+        "openai_entry": "https://sourcey.com/c/openai",
+        "openai_offer": "OpenAI Startup Credits and VC Partner Support: free API credits, rate limit upgrades, technical and GTM support for startups backed by eligible VC partners"
+      }
+    },
+    {
+      "id": "domain_age",
+      "statement": "community.openai.com is on the openai.com domain, registered decades before this claim.",
+      "evidence": {
+        "domain": "openai.com",
+        "registered": "pre-2000"
+      }
+    },
+    {
+      "id": "wayback_capture",
+      "statement": "The domain root community.openai.com has a Wayback Machine capture dated before this claim.",
+      "evidence": {
+        "capture_url": "https://web.archive.org/web/20251230185614/https://community.openai.com/",
+        "captured_at": "2025-12-30"
+      }
+    },
+    {
+      "id": "verbatim_post_text",
+      "statement": "The delivered reply body text is reported verbatim here.",
+      "evidence": {
+        "post_text": "One workaround that has come up in similar threads here: the separate $2,500 OpenAI credit benefit was removed from the Founders Hub benefits section, but the Azure credits still cover Azure OpenAI Service, so you can run the same OpenAI models against your Azure balance while the direct credit is stuck. If the support ticket stays unanswered that is usually the fastest working path.\n\nFor checking what each program currently offers before you chase support, there is a public registry at [sourcey.com](https://sourcey.com/c/microsoft) that tracks the Microsoft for Startups terms and the separate OpenAI startup credits entry, each with the date it was last read from the source. It is a quick way to confirm whether a benefit still exists."
+      }
+    }
+  ]
+}
